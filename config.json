@@ -1,0 +1,34 @@
+{
+    "data": {
+      "data_dir": "/data/",
+      "workers": 8
+    },
+   "train": {
+      "batch_size": 16
+    },
+    "checkpoints": {
+      "checkpoints_name": "rpeNet",
+      "checkpoints_dir": "./checkpoints/",
+      "save_iters": 10
+    },
+    "network":{
+      "model_name": "vgg19",
+      "num_classes": 0,
+      "model_dir": "../trained models/"
+    },
+    "logging": {
+      "logfile_level": "info",
+      "stdout_level": "info",
+      "log_file": "../log/rpeNet.log",
+      "log_format": "%(asctime)s %(levelname)-7s %(message)s",
+      "rewrite": true
+    },
+    "lr": {
+      "base_lr": 0.01
+    },
+    "solver": {
+      "display_iter": 10,
+      "max_epoch": 100,
+      "save-per-epochs": 10
+    }
+}

@@ -12,10 +12,10 @@ Coming soon
 ## Codes
 
 ### Training the cell detection module
-For training details using the data in the paper, please see ```training.py```. Make sure the dataset are stored as they appear in this repository.
+For training details using the data in the paper, please see ```train.py```. Make sure the dataset are stored as they appear in this repository.
 
 ### Training the vessel segmentation module
-For training details using the data in the paper, please see ```training_vessel.py```.
+For training details using the data in the paper, please see ```DconnNet\train.py```.
 
 ## Citation
 If you use our model or dataset, please cite our work:
